@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Breaking Bad</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/latest/normalize.css"
+    />
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+
+  <body id="body">
+    <header>
+    </header>
+    <main>
+      <!-- <div class="photo"></div> -->
+       <section class = "photos">
+        <div>
+          <button id="breaking" class="photos__button--breaking" type="button"></button>
+        </div>
+        <div>
+          <button id="betterCaul" class="photos__button--better" type="button"></button>
+        </div>
+
+       </section> 
+
+        <div class="breaking-container">
+          <div>
+            <button id="allCharacter" class="breaking-container__button--modifier" type="button">Personajes</button>
+          </div>
+          <div>
+            <button id="random" class="breaking-container__button" type="button">Randomizer</button>
+          </div>
+          <div>
+            <button id="allFilter" class="breaking-container__button" type="button">Filtros</button>
+          </div>
+          <div id ="elementToBeToggled" class ="breaking-container__toggled">
+            <div><!---------------------------------TOOGLE-------------------->
+              <input id="charcterId" class="search" placeholder="Id personaje">
+              <button id="searchCharacter" class="breaking-container__toggled__button">Buscar</button>
+            </div>
+            <div>
+              <input id="characterName" class="search" placeholder="Nombre personaje">
+              <button id="searchCharacterName" class="breaking-container__toggled__button">Buscar</button>
+            </div>
+            <div>
+              <select name="select" id ="filterSerie">
+                <option value="" class ="value-select"selected>Selecciona Serie</option>
+                <option value="Breaking Bad">Breaking Bad</option>
+                <option value="Breaking Bad, Better Call Saul">Breaking Bad, Better Call Saul</option>
+                <option value="Better Call Saul">Better Call Saul</option>
+              </select>
+              <button id="filter" class="breaking-container__toggled__button" type="button">Filtrar</button>
+            </div>
+          </div>
+        </div><!----END TOOGLE----------------------------------------------->
+      <div>
+         <ul id="character" class="flex-container_wrap"></ul>
+      </div>
+    </main>
+  </body>
+</html>
