@@ -1,6 +1,6 @@
-# Pokemon APP
+# API BREAKING BAD
 
-![Logo Pokemon](./src/app/assets/logo.png)
+![Logo Breaking Bad](./src/app/assets/logo.png)
 
 #### Objetivo
 
@@ -10,7 +10,7 @@ El objetivo es enriquecer y mejorar la aplicación base, para entender el compor
 
 #### API
 
-Consumiremos la [API pública de Pokemon](https://pokeapi.co/) para listar y consultar el detalle de un Pokemon concreto
+<!-- Consumiremos la [API pública de Pokemon](https://pokeapi.co/) para listar y consultar el detalle de un Pokemon concreto -->
 
 #### Stack tecnológico
  - Node + NPM
